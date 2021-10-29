@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://kit.fontawesome.com/9fee4e3fee.js" crossorigin="anonymous"></script>
+  <script src="js/js.js"></script>
+
+  <title>Sosin Animaciones</title>
+</head>
+<body>
+
+  <header id="encabezado">
+    <div id=logo>
+    <img  src="img/logo.png" alt="Logo Sosin Animaciones">
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="menuhamburguesa()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id=navegacion>
+        <ul>
+          <li><a href="index.html">Conocenos</a></li>
+          <li><a href="tematicas.html">Fiestas tematicas</a></li>
+          <li><a href="contacto.html">contactanos</a></li>
+        </ul>
+      </nav>    
+  </header>
+
+
+  <div class="container">
+    <div class="form">
+        <div class="contact-info">
+            <h3 class="title">¡Escribinos!</h3>
+            <p class="text"> Contacta con nosotros a traves del siguiente formulario.</p>
+            <div class="info">
+                <div class="social-information"> <i class="fa fa-map-marker"></i>
+                    <p>Haedo, Buenos Aires</p>
+                </div>
+                <div class="social-information"> <i class="fa fa-envelope-o"></i>
+                    <p>animacionessosin@gmail.com</p>
+                </div>
+                <div class="social-information"> <i class="fa fa-mobile-phone"></i>
+                    <p>+54 11 357-987-54 </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="contact-info-form"> <span class="circle one"></span> <span class="circle two"></span>
+            <form action="#" onclick="return false;" autocomplete="off">
+                <h3 class="title">Contactate</h3>
+                <div class="social-input-containers"> <input type="text" name="nombre" id="nombre" class="input" placeholder="Nombre" /> </div>
+                <div class="social-input-containers"> <input type="email" name="email" id="email" class="input" placeholder="Email" /> </div>
+                <div class="social-input-containers"> <input type="tel" name="telefono" id="telefono" class="input" placeholder="Telefono" /> </div>
+                <div class="social-input-containers textarea"> <textarea name="mensaje" id="mensaje" class="input" placeholder="Mensaje"></textarea> </div> <input type="submit" id="enviar" value="Enviar" class="btn" onclick="validarformulario()"/>
+            </form>
+        </div>
+    </div>
+  </div>
+
+
+  
+<footer>
+  <br><br><br>
+
+      <div class="social-media">
+        <p>Seguinos en nuestras redes:</p>
+        <div class="social-icons"> <a href="https://www.facebook.com/sosinanimaciones/"> <i class="fa fa-facebook-f"></i> </a><a href="https://www.instagram.com/sosin_animaciones/"> <i class="fa fa-instagram"></i> </a></div>
+      </div>
+  
+</footer>
+
+</body>
+</html>
